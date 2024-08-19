@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href = "./styles/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href = "./styles/styles.css">
+    <title>Mi Primera Página</title>
+</head>
+<body>
+    <header>
+        <h1>Mi Primera Página Web </h1>
+    </header>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="contNav">
+        <nav>
+            <ul>
+                <li class="navItem">
+                    <a href="#about">¿Quién soy?</a>
+                </li>    
+                <li class="navItem">
+                    <a href="#techno">Mis Tecnologías Preferidas</a>
+                </li>
+                <li class="navItem">
+                    <a href="#favActivity">Mis actividades Favoritas</a>
+                </li>
+            </ul>
+        </nav>
+    </div>    
+    <main>
+        <section id="about">
+            <h2>¿Quién Soy Yo?</h2>
+            <br>
+            <p>Fanático de las nuevas tecnologías.  Aprendiendo y explorando siempre cosas nuevas. </p>
+        </section>
+        <section id="techno">
+            <h2>Mis Tecnologías Preferidas</h2></section>
+            <div class="contAct">
+                <ul>
+                    <a href="https://es.wikipedia.org/wiki/HTML">   
+                        <li class="itemAct">
+                            <h3>HTML</h3>
+                            <img src="./assets/images/html.png"  alt= "image HTML">
+                        </li>
+                    </a>
+                    <a href="https://es.wikipedia.org/wiki/CSS">
+                        <li class="itemAct">
+                            <h3>
+                                CSS
+                            </h3>
+                            <img src="./assets/images/css.png" alt= "image CSS">
+                        </li>
+                    </a>
+                    <a href="https://es.wikipedia.org/wiki/JavaScript">
+                        <li class="itemAct">
+                            <h3>
+                                JS
+                            </h3>
+                            <img src="./assets/images/js.png" alt= "image JS">
+                        </li>
+                    </a>
+                </ul>
+            </div>
+        </section>
+        <section id="favActivity">
+            <h2>Mis Actividades Favoritas</h4>
+            <form action="form" id="addForm" name="addForm">
+                <div>
+                    <input type="text" id="title"  name="title" placeholder="Nombre de la actividad">
+                </div>
+                <div>
+                    <textarea id="description" name="description" rows="4"
+                    placeholder="Descripción de la actividad"></textarea>
+                </div>
+                <div>
+                    <input type="imgUrl" id="imgUrl" name ="imgUrl" placeholder="Enlace de la imagen">
+                </div>
+                <input type="submit" value="Agregar actividad" id="add" name="add">
+            </form>
+            <br>
+            <div>
+                <div class="container" id="container">
+<!--                     <div class:"card" id="1">
+                        <h5>Title------------------------------------------ 1</h5>
+                        <p>document ------------------------------------ 1>
+                        <img src="https://images.pexels.com/photos/160636/path-andar-field-landscape-160636.jpeg">
+                        <button type="remove" value="Agregar actividad" id="del" name="del">Borrar</button>
+                    </div>
+                    <div class:"card" id="2">
+                        <h5>Title------------------------------------------ 1</h5>
+                        <p>document------------------------------------ 1>
+                        <img src="https://images.pexels.com/photos/160636/path-andar-field-landscape-160636.jpeg">
+                        <button type="remove" value="Agregar actividad" id="del" name="del">Borrar</button>
+                    </div>                
+                    <div class:"card" id="3">
+                        <h5>Title------------------------------------------ 1</h5>
+                        <p>document------------------------------------ 1>
+                        <img src="https://images.pexels.com/photos/160636/path-andar-field-landscape-160636.jpeg">
+                        <button type="remove" value="Borrar Actividad" id="del" name="del">Borrar</button>
+                    </div>         -->                         
+                    <span id="sin-act">No hay actividades</span>
+                </div>
+            </div>
+        </section>
+    </main>
+    <br>
+    <footer>Hecho por Santiago Giraldo. 2024 Todos los derechos reservados.   &copy</footer>
+    <script src="./scripts/index.js"></script>
+</body>
+</html>

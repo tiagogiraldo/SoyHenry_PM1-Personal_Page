@@ -1,0 +1,212 @@
+html {
+    background-color: black ;
+    color: whitesmoke;
+    font-family: "Orbitron", sans-serif;
+}
+
+header {
+    position:fixed;
+    font-size: 2rem;
+    text-transform: uppercase;
+    height: 150px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    width:100%;
+    padding: auto;
+    
+}
+
+
+.contNav nav > ul {
+    font-size: 1rem;
+    min-height: 2.725rem;
+    display: flex;
+    align-items: center;
+    padding: 1rem 0 1rem;
+    justify-content: center;
+}
+
+.contNav .navItem{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.navItem {
+    margin-left: auto;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color:whitesmoke
+}
+
+.navItem a:hover{
+    background-color: indigo;
+}
+
+h2, #about {
+    display: center;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+    padding: 1rem 0rem 1rem 0rem;
+}
+
+.contAct {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contAct > ul {
+    font-size:  1rem;
+    min-height: 2.rem;
+    display: flex;
+    align-items: center;
+    padding: 1rem 0 1rem;
+}
+
+.contAct .itemAct{
+    display: flex;
+    justify-content: center;
+    display: inline-block;
+    padding: 0 1rem 1rem 0
+}
+
+
+.itemAct img {
+    width: 100%;
+    max-width: 200px; /* Set desired maximum image width here */
+    vertical-align: middle;
+    margin: 0 auto; /* Centers images horizontally */
+}
+  
+.itemAct h3 {
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    padding: 1rem 1rem 1rem 1rem; /* Add some space between heading and image */
+}
+
+.contAct a:hover {
+    color: rgb(77,77,77) !important;
+    background-color: rgb(77, 77, 77)
+}
+
+label{
+    width:5rem;
+    align-items: center;
+    object-fit: contain;
+}
+
+img{
+    width: 5rem;
+    align-items: center;
+    object-fit: contain;
+    vertical-align: center;
+}
+
+img:hover{
+    display:flex;
+}
+
+
+form div{
+    display:flex;
+    margin:1rem;
+    align-items: left;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+h4, span{
+    margin:1rem;
+}
+
+input, textarea{
+    background-color: black;
+    color: whitesmoke;
+    width: 100%;
+}
+
+#add{
+    border-radius: 15px;
+    cursor: pointer;
+    width: 20%;
+    margin-left: 10px;
+}
+
+
+footer{
+    font-size: smaller;
+    text-align: center;
+    position:fixed;
+    bottom: 0;
+    width:100%;
+    padding: 1rem;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
+.container h3 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+    padding: 10px 10px;
+}
+
+.container p > img{
+    display: flex;
+    justify-content: center;;
+    width: 100%;
+    text-align: center;
+    /* padding: 1rem 0 1rem 0 */
+    padding: 10px 10px;
+}
+
+
+.container img {
+    width: 100%;
+    max-width: 250px; 
+    vertical-align: middle;
+    margin: 0 auto; 
+    padding: 10px 10px;
+}
+
+
+.container button {
+    box-sizing: border-box;
+    background-color: gray; 
+    color: whitesmoke;
+    border-color: indigo;
+    border-radius: 25%;
+    display:flex;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    font-size: medium;
+    height: 25px;
+    width: 4rem;
+    text-align: center;
+
+}
+
+
+
+
+
+
+
+
+
+
+
